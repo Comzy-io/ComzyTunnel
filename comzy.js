@@ -52,7 +52,7 @@ function logDim(message) {
 const HOME_DIR = os.homedir();
 const COMZY_DIR = path.join(HOME_DIR, '.comzy');
 const USER_FILE = path.join(COMZY_DIR, '.user');
-const LOGIN_URL = 'https://comzy.io/login';
+const LOGIN_URL = 'https://portal.comzy.io';
 const ANONYMOUS_TIMEOUT = 60 * 60 * 1000; // 1 hour in milliseconds
 
 // --- Ensure .comzy folder exists ---

@@ -320,8 +320,32 @@ For images, PDFs, videos:
 - MySQL/MariaDB database
 - SSL certificates (Let's Encrypt recommended)
 - Domain with DNS configured
+## Quick Start
 
-## 🔧 Installation
+### Option 1: Use Comzy Hosted Service (Recommended for Quick Start)
+
+Get started in seconds without any installation or setup:
+
+1. **Download the client**
+   ```bash
+   curl -O https://raw.githubusercontent.com/Comzy-io/ComzyTunnel/main/comzy.js
+   ```
+
+2. **Run directly with Node.js**
+   ```bash
+   node comzy.js 3000  # Expose localhost:3000
+   ```
+
+3. **Get your public URL instantly**
+   ```
+   ✓ Tunnel created successfully!
+   Public URL: https://client-abc123.comzy.io
+   ```
+
+**That's it!** No installation, no configuration, no server setup required. The hosted service at `comzy.io` handles everything for you.Refer this for more info [Comzy Docs](https://docs.comzy.io/docs/getting-started/comzy-tunnel/how-it-works)
+
+
+## Installation
 
 ### Server Setup
 
