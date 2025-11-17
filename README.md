@@ -330,11 +330,13 @@ Get started in seconds without any installation or setup:
    ```bash
    curl -O https://raw.githubusercontent.com/Comzy-io/ComzyTunnel/main/comzy.js
    ```
+   **Note:** you can download the bin file accoridng to your os and architecher and go run it directly
 
 2. **Run directly with Node.js**
    ```bash
    node comzy.js 3000  # Expose localhost:3000
    ```
+   or just run donwloaded bin file
 
 3. **Get your public URL instantly**
    ```
@@ -552,4 +554,5 @@ Inspired by ngrok and other tunneling solutions.
 ---
 
 **Remember**: Security is everyone's responsibility. Always follow best practices and keep your installation secure.
+
 
